@@ -1,0 +1,14 @@
+[Unit]
+Description=Simple File Synchroniser via HTTP/HTTPS - Sender
+Documentation=https://github.com/andyprasetya/http-filesync-sender#readme
+After=network.target
+
+[Service]
+Environment=NODE_ENV=production
+Type=simple
+User=[_username_]
+ExecStart=/usr/bin/node [_full-path_to_]/index.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

@@ -1,2 +1,2 @@
 # http-filesync-sender
-Simple HTTP File Synchroniser - Sender
+Simple File Synchroniser via HTTP/HTTPS - Sender
