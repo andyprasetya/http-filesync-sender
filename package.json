@@ -1,0 +1,34 @@
+{
+  "name": "http-filesync-sender",
+  "version": "1.0.0",
+  "description": "A Simple HTTP File Synchroniser - Sender",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyprasetya/http-filesync-sender.git"
+  },
+  "author": "andyprasetya@opense7en.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andyprasetya/http-filesync-sender/issues"
+  },
+  "homepage": "https://github.com/andyprasetya/http-filesync-sender#readme",
+  "dependencies": {
+    "form-data": "latest",
+    "moment": "latest",
+    "request": "latest",
+    "sqlite3": "latest"
+  },
+  "devDependencies": {
+    "mocha": "latest"
+  }
+}
